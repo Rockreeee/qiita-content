@@ -1,5 +1,5 @@
 ---
-title: zsh-keybindings
+title: "Zshでシェル操作を快適にするためのキーバインド完全ガイド"
 tags:
   - 'zsh'
   - 'terminal'
