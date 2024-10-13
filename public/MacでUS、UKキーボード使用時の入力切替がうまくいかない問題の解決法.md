@@ -33,7 +33,8 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 # 原因
 原因は以下の機能のせいです。。。
-![キーを長押しした時](img/mac-us-keyboard-input-switch/226_1.png)
+![原因](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3907333/1be37a25-3f71-9fde-b031-8aa4248b85d0.png)
+
 
 この機能をオフにすることで入力切替がスムーズに行くようになりました。
 
