@@ -5,7 +5,7 @@ tags:
   - USキーボード
   - UKキーボード
 private: false
-updated_at: '2024-10-16T13:24:02+09:00'
+updated_at: '2024-10-13T16:30:02+09:00'
 id: 7a651ee62c16e297540a
 organization_url_name: null
 slide: false
