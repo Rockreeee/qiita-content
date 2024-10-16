@@ -5,7 +5,7 @@ tags:
   - Mac
   - Terminal
 private: false
-updated_at: ''
+updated_at: '2024-10-16T13:27:14+09:00'
 id: 716df96425d91b91a438
 organization_url_name: null
 slide: false
