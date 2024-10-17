@@ -29,7 +29,8 @@ ignorePublish: false
 │       ├── functions.zsh       # 関数の定義
 │       └── oh-my-zsh.zsh       # oh-my-zshの設定
 ├── setup-scripts/
-│   ├── install-brew-package.sh # homebrewのインストールなど
+│   ├── install-apps.sh         # アプリのインストール
+│   ├── install-brew-package.sh # homebrewのパッケージインストール
 │   ├── install-oh-my-zsh.sh    # oh-my-zshのインストール
 │   ├── setup-git.sh            # gitのセットアップ
 │   ├── setup-MacOS.sh          # mac設定のセットアップ
@@ -38,7 +39,6 @@ ignorePublish: false
 ├── .gitconfig                  # Gitの設定ファイル
 ├── .gitconfig-personal         # 個人のGitの設定ファイル
 ├── .gitconfig-work             # 会社のGitの設定ファイル
-├── .gitconfig                  # Gitの設定ファイル
 ├── .zshenv                     # 全シェルで適用される設定
 └── .zshrc                      # インタラクティブシェル用の設定
 ```
@@ -74,13 +74,13 @@ ignorePublish: false
 このファイルを使えば以下の環境の構築が簡単にできます。
 
 ```
-構築される環境:
 •	homebrew
 •	oh-my-zsh(powerlevel10k)
 •	zsh環境(.zshrc, .zshenv)
 •	git環境(.gitconfig)
 •	macOS
 •	VSCode
+•	様々なアプリのインストール
 ```
 
 
@@ -155,7 +155,6 @@ chmod +x ~/dotfiles/setup-scripts/setup-git.sh
 ~/dotfiles/setup-scripts/setup-git.sh
 ```
 
-
 ## Mac環境のセットアップ
 ```zsh
 # 実行権限付与
@@ -163,6 +162,27 @@ chmod +x ~/dotfiles/setup-scripts/setup-MacOS.sh
 # 実行
 ~/dotfiles/setup-scripts/setup-MacOS.sh
 ```
+
+## アプリをインストール
+ ```zsh
+# 実行権限付与
+chmod +x ~/dotfiles/setup-scripts/install-apps.sh
+# 実行
+~/dotfiles/setup-scripts/install-apps.sh
+```
+インストールされるアプリの一覧
+-  google-chrome
+-  microsoft-office
+-  visual-studio-code
+-  deepl
+-  iterm2
+-  slack
+-  zoom
+-  chatgpt
+-  raycast
+-  rectangle
+-  google-japanese-ime
+-  astah-proffesional
 
 ## VSCode環境のセットアップ
 ```zsh
@@ -254,6 +274,16 @@ VSCodeのセットアップに関係するファイルは以下です。
 - **settings.json**: vscodeの設定ファイル
 
 - **setup-vscode.sh**: VSCodeの設定をdotfilesから自動的にセットアップするためのシェルスクリプト。具体的には、VSCodeの設定ファイルのシンボリックリンクを作成し、必要な拡張機能をインストール。
+
+## アプリ編
+アプリのインストールに関係するファイルは以下です。
+```zsh
+~/dotfiles/
+└── setup-scripts/
+    └── install-apps.sh          
+```
+
+**install-apps.sh**: 様々なアプリをインストールするためのスクリプト。
 
 ## Mac編
 Macのセットアップに関係するファイルは以下です。
