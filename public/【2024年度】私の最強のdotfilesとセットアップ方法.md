@@ -7,7 +7,7 @@ tags:
   - dotfiles
   - VSCode
 private: false
-updated_at: '2024-10-17T14:23:50+09:00'
+updated_at: '2024-10-17T14:27:31+09:00'
 id: e59b1c4c764d4079c657
 organization_url_name: null
 slide: false
