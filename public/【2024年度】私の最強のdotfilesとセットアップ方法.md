@@ -6,7 +6,6 @@ tags:
   - 'ShellScript'
   - 'VSCode'
   - 'Mac'
-  - 'Linux'
 private: false
 updated_at: ''
 id: null
