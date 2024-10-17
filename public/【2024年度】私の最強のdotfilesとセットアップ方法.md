@@ -12,10 +12,11 @@ updated_at: ''
 id: null
 organization_url_name: null
 slide: false
-ignorePublish: true
+ignorePublish: false
 ---
 # 👍️ いいねのお願い
-いつでも見返せるようにいいねをお願いします🙇
+いつでも見返せるようにいいねをお願いします🙇  
+より良いdotfileにしていきたいので、アドバイスもお願いします。
 
 # はじめに
 この記事では、私がどのようにしてdotfilesを整理し、セットアップを自動化しているかを紹介します。  
@@ -29,7 +30,8 @@ ignorePublish: true
 構築される環境:
 •	homebrew
 •	oh-my-zsh(powerlevel10k)
-•	dotfiles(.zshrc, .zshenv, .gitconfig...)
+•	zsh環境(.zshrc, .zshenv)
+•	git環境(.gitconfig)
 •	macOS
 •	VSCode
 ```
@@ -139,7 +141,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 ```
 Powerlevel10kは、Zsh用の高速でカスタマイズ可能なテーマで、情報を見やすく表示しつつ、シェルのパフォーマンスを向上させる人気のテーマです。
 
-### ｚｓｈ環境のセットアップ
+### zsh環境のセットアップ
 ```zsh
 # 実行権限付与
 chmod +x ~/dotfiles/setup-scripts/setup-zsh.sh
@@ -232,7 +234,7 @@ gitのセットアップに関係するファイルは以下です。
 
 - **.gitconfig-personal**: 個人のGitの設定ファイル【ご自身で追加】
 
-- **.gitconfig-work**: 会社のGitの設定ファイル
+- **.gitconfig-work**: 会社のGitの設定ファイル【ご自身で追加】
 
 ## VSCode編
 VSCodeのセットアップに関係するファイルは以下です。
@@ -267,7 +269,6 @@ Macのセットアップに関係するファイルは以下です。
 
 
 # まとめ
-
 この記事では、私がどのようにしてDotfilesを構成し、セットアップを効率化しているかを紹介しました。これにより、どんな環境でも素早く自分の作業環境を再現できるようになりました。皆さんもぜひ、自分用にカスタマイズしてみてください！
 
 # 最後に
