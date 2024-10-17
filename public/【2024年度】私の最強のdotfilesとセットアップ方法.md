@@ -1,14 +1,14 @@
 ---
 title: 【2024年度】私の最強のdotfilesとセットアップ方法
 tags:
-  - 'Dotfiles'
-  - 'Zsh'
-  - 'ShellScript'
-  - 'VSCode'
-  - 'Mac'
+  - ShellScript
+  - Zsh
+  - Mac
+  - dotfiles
+  - VSCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-10-17T14:15:44+09:00'
+id: e59b1c4c764d4079c657
 organization_url_name: null
 slide: false
 ignorePublish: false
