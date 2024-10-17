@@ -90,6 +90,7 @@ Dotfilesに含まれる代表的なファイル
 ├── .zshenv                     # 全シェルで適用される設定
 └── .zshrc                      # インタラクティブシェル用の設定
 ```
+
 :::note warn
 警告
 .gitconfig-personalと.gitconfig-workはご自身で追加してください。内容は以下を参考にしてください。
@@ -109,7 +110,8 @@ Dotfilesに含まれる代表的なファイル
 ```
 
 # セットアップ方法
-【2024年度】私の最強のdotfilesでは**各機能個別にセットアップを行います。**  
+【2024年度】私の最強のdotfilesでは**各機能個別にセットアップを行います。**
+
 :::note alert
 より強い警告
 各ファイルの中身を理解した上で実行してください。実行は自己責任でお願いします。
@@ -125,7 +127,7 @@ chmod +x ~/dotfiles/setup-scripts/install-brew-packages.sh
 ```
 dotfilesの環境構築のために必要なパッケージをhomebrewを用いてインストールします。
 
-### oh-my-zshをインストール
+### oh-my-zsh&power10kをインストール
 ```zsh
 # 実行権限付与
 chmod +x ~/dotfiles/setup-scripts/install-oh-my-zsh.sh
@@ -134,10 +136,6 @@ chmod +x ~/dotfiles/setup-scripts/install-oh-my-zsh.sh
 ```
 Oh My Zshは、Zshシェルのカスタマイズを簡単に行えるフレームワークで、豊富なプラグインやテーマを使ってシェルを便利にできるツールです。
 
-### power10kインストール
-```zsh
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-```
 Powerlevel10kは、Zsh用の高速でカスタマイズ可能なテーマで、情報を見やすく表示しつつ、シェルのパフォーマンスを向上させる人気のテーマです。
 
 ### zsh環境のセットアップ
