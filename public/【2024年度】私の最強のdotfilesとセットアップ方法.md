@@ -13,6 +13,54 @@ organization_url_name: null
 slide: false
 ignorePublish: false
 ---
+# 【2024年度】私の最強のdotfilesの構成
+```zsh
+~/dotfiles/
+├── config/
+│   ├── vscode/   
+│   │   ├── extensions          # vscodeの拡張機能一覧
+│   │   ├── keybindings.json    # vscodeのキーバインド
+│   │   └── settings.json       # vscodeの設定ファイル
+│   └── zsh/   
+│       ├── alias.zsh           # エイリアスの定義
+│       ├── bindkey.zsh         # キーバインドの定義
+│       ├── completion.zsh      # キーバインドの定義
+│       ├── env.zsh             # 環境変数の設定
+│       ├── functions.zsh       # 関数の定義
+│       └── oh-my-zsh.zsh       # oh-my-zshの設定
+├── setup-scripts/
+│   ├── install-brew-package.sh # homebrewのインストールなど
+│   ├── install-oh-my-zsh.sh    # oh-my-zshのインストール
+│   ├── setup-git.sh            # gitのセットアップ
+│   ├── setup-MacOS.sh          # mac設定のセットアップ
+│   ├── setup-vscode.sh         # vscodeのセットアップ
+│   └── setup-zsh.sh            # zshのセットアップ
+├── .gitconfig                  # Gitの設定ファイル
+├── .gitconfig-personal         # 個人のGitの設定ファイル
+├── .gitconfig-work             # 会社のGitの設定ファイル
+├── .gitconfig                  # Gitの設定ファイル
+├── .zshenv                     # 全シェルで適用される設定
+└── .zshrc                      # インタラクティブシェル用の設定
+```
+
+:::note warn
+警告
+.gitconfig-personalと.gitconfig-workはご自身で追加してください。内容は以下を参考にしてください。
+:::
+- **.gitconfig-personal**: 個人のGitの設定ファイル
+```zsh
+[user]
+	name = gitアカウントの名前【個人】
+	email = gitアカウントのメアド【個人】
+```
+
+- **.gitconfig-work**: 会社のGitの設定ファイル
+```zsh
+[user]
+	name = gitアカウントの名前【会社】
+	email = gitアカウントのメアド【会社】
+```
+
 # 👍️ いいねのお願い
 いつでも見返せるようにいいねをお願いします🙇  
 より良いdotfileにしていきたいので、アドバイスもお願いします。
@@ -61,53 +109,6 @@ Dotfilesに含まれる代表的なファイル
 
 これらのファイルは、自分の作業効率を上げるためにカスタマイズされることが多く、プログラマーや開発者にとっては非常に重要な役割を果たします。
 
-# 【2024年度】私の最強のdotfilesの構成
-```zsh
-~/dotfiles/
-├── config/
-│   ├── vscode/   
-│   │   ├── extensions          # vscodeの拡張機能一覧
-│   │   ├── keybindings.json    # vscodeのキーバインド
-│   │   └── settings.json       # vscodeの設定ファイル
-│   └── zsh/   
-│       ├── alias.zsh           # エイリアスの定義
-│       ├── bindkey.zsh         # キーバインドの定義
-│       ├── completion.zsh      # キーバインドの定義
-│       ├── env.zsh             # 環境変数の設定
-│       ├── functions.zsh       # 関数の定義
-│       └── oh-my-zsh.zsh       # oh-my-zshの設定
-├── setup-scripts/
-│   ├── install-brew-package.sh # homebrewのインストールなど
-│   ├── install-oh-my-zsh.sh    # oh-my-zshのインストール
-│   ├── setup-git.sh            # gitのセットアップ
-│   ├── setup-MacOS.sh          # mac設定のセットアップ
-│   ├── setup-vscode.sh         # vscodeのセットアップ
-│   └── setup-zsh.sh            # zshのセットアップ
-├── .gitconfig                  # Gitの設定ファイル
-├── .gitconfig-personal         # 個人のGitの設定ファイル
-├── .gitconfig-work             # 会社のGitの設定ファイル
-├── .gitconfig                  # Gitの設定ファイル
-├── .zshenv                     # 全シェルで適用される設定
-└── .zshrc                      # インタラクティブシェル用の設定
-```
-
-:::note warn
-警告
-.gitconfig-personalと.gitconfig-workはご自身で追加してください。内容は以下を参考にしてください。
-:::
-- **.gitconfig-personal**: 個人のGitの設定ファイル
-```zsh
-[user]
-	name = gitアカウントの名前【個人】
-	email = gitアカウントのメアド【個人】
-```
-
-- **.gitconfig-work**: 会社のGitの設定ファイル
-```zsh
-[user]
-	name = gitアカウントの名前【会社】
-	email = gitアカウントのメアド【会社】
-```
 
 # セットアップ方法
 【2024年度】私の最強のdotfilesでは**各機能個別にセットアップを行います。**
