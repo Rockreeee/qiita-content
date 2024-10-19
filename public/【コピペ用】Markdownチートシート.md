@@ -35,13 +35,13 @@ ignorePublish: false
 
 >> 更に引用
 
-`コード`
-
+`コード` 
+```
     ```python
-    def hello():
-        print("Hello, World!")
+    def hello():  
+        print("Hello, World!")  
     ```
-
+```
 ---
 ***
 ___
