@@ -1,7 +1,8 @@
 ---
 title: 【コピペ用】Markdownチートシート
 tags:
-  - ''
+  - 'Markdown'
+  - 'Qiita'
 private: false
 updated_at: ''
 id: null
