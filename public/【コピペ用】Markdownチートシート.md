@@ -37,10 +37,10 @@ ignorePublish: false
 
 `コード`
 
-```python
-def hello():
-    print("Hello, World!")
-```
+    ```python
+    def hello():
+        print("Hello, World!")
+    ```
 
 ---
 ***
