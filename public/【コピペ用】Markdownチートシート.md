@@ -4,7 +4,7 @@ tags:
   - Qiita
   - Markdown
 private: false
-updated_at: '2024-10-19T15:43:38+09:00'
+updated_at: '2024-10-19T15:48:14+09:00'
 id: 977ca1962e8ad7725afa
 organization_url_name: null
 slide: false
