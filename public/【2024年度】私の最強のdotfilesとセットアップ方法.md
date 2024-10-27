@@ -13,7 +13,7 @@ organization_url_name: null
 slide: false
 ignorePublish: false
 ---
-# 【2024年度】私の最強のdotfilesの構成
+# 📋 【2024年度】私の最強のdotfilesの構成
 ```zsh
 ~/dotfiles/
 ├── config/
@@ -65,7 +65,7 @@ ignorePublish: false
 いつでも見返せるようにいいねをお願いします🙇  
 より良いdotfileにしていきたいので、アドバイスもお願いします。
 
-# はじめに
+# ✍️ はじめに
 この記事では、私がどのようにしてdotfilesを整理し、セットアップを自動化しているかを紹介します。  
 以下のファイルをダウンロードして使用してもよいですし、参考にして自身で構築してもよいです。👍️  
 
@@ -84,7 +84,7 @@ ignorePublish: false
 ```
 
 
-# dotfilesとは
+# 🙋‍♂️ dotfilesとは
 dotfilesとは、主にLinuxやmacOSなどのUnix系のオペレーティングシステムで使われる設定ファイルのことを指します。これらのファイルは通常、.（ドット）で始まる名前を持ち、ホームディレクトリに隠しファイルとして存在します。たとえば、.zshrc、.vimrc、.gitconfigなどが典型的な例です。
 
 dotfilesの役割は次の通りです：
@@ -110,7 +110,7 @@ Dotfilesに含まれる代表的なファイル
 これらのファイルは、自分の作業効率を上げるためにカスタマイズされることが多く、プログラマーや開発者にとっては非常に重要な役割を果たします。
 
 
-# セットアップ方法
+# 🚀 セットアップ方法
 【2024年度】私の最強のdotfilesでは**各機能個別にセットアップを行います。**
 
 :::note alert
@@ -118,7 +118,7 @@ Dotfilesに含まれる代表的なファイル
 各ファイルの中身を理解した上で実行してください。実行は自己責任でお願いします。
 :::
 
-## zsh環境のセットアップ
+## 🖥️ zsh環境のセットアップ
 ### homebrewパッケージをインストール
 ```zsh
 # 実行権限付与
@@ -147,7 +147,7 @@ chmod +x ~/dotfiles/setup-scripts/setup-zsh.sh
 ~/dotfiles/setup-scripts/setup-zsh.sh
 ```
 
-## git環境のセットアップ
+## 🖥️ git環境のセットアップ
 ```zsh
 # 実行権限付与
 chmod +x ~/dotfiles/setup-scripts/setup-git.sh
@@ -155,7 +155,7 @@ chmod +x ~/dotfiles/setup-scripts/setup-git.sh
 ~/dotfiles/setup-scripts/setup-git.sh
 ```
 
-## Mac環境のセットアップ
+## 🖥️ Mac環境のセットアップ
 ```zsh
 # 実行権限付与
 chmod +x ~/dotfiles/setup-scripts/setup-MacOS.sh
@@ -163,7 +163,7 @@ chmod +x ~/dotfiles/setup-scripts/setup-MacOS.sh
 ~/dotfiles/setup-scripts/setup-MacOS.sh
 ```
 
-## アプリをインストール
+## 🖥️ アプリをインストール
  ```zsh
 # 実行権限付与
 chmod +x ~/dotfiles/setup-scripts/install-apps.sh
@@ -184,7 +184,7 @@ chmod +x ~/dotfiles/setup-scripts/install-apps.sh
 -  google-japanese-ime
 -  astah-proffesional
 
-## VSCode環境のセットアップ
+## 🖥️ VSCode環境のセットアップ
 ```zsh
 # 実行権限付与
 chmod +x ~/dotfiles/setup-scripts/setup-vscode.sh
@@ -192,7 +192,7 @@ chmod +x ~/dotfiles/setup-scripts/setup-vscode.sh
 ~/dotfiles/setup-scripts/setup-vscode.sh
 ```
 
-# 各ファイルの解説
+# 🎓 各ファイルの解説
 ## zsh編
 zshのセットアップに関係するファイルは以下です。
 ```zsh
@@ -296,9 +296,9 @@ Macのセットアップに関係するファイルは以下です。
 **setup-vscode.sh**: macOSの設定を変更するためのZshスクリプト。具体的には、トラックパッドやDockに関する設定を行っている。
 
 
-# まとめ
+# 📝 まとめ
 この記事では、私がどのようにしてDotfilesを構成し、セットアップを効率化しているかを紹介しました。これにより、どんな環境でも素早く自分の作業環境を再現できるようになりました。皆さんもぜひ、自分用にカスタマイズしてみてください！
 
-# 最後に
+# 👋 最後に
 私のdotfilesもまだまだ伸びしろがあると思います！  
 ぜひおすすめの設定などがあれば<span style="color:green;">コメント</span>で教えて下さい🙇

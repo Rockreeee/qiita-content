@@ -11,7 +11,7 @@ slide: false
 ignorePublish: false
 ---
 
-# Markdownチートシート
+# 📝 Markdownチートシート
 ```md
 # 見出し1
 ## 見出し2
@@ -35,13 +35,13 @@ ignorePublish: false
 
 >> 更に引用
 
-`コード` 
-```
-    ```python
-    def hello():  
-        print("Hello, World!")  
-    ```
-```
+`コード`
+
+```python
+def hello():  
+    print("Hello, World!")  
+```                                                         ,
+
 ---
 ***
 ___
