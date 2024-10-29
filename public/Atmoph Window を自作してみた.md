@@ -6,12 +6,12 @@ tags:
   - 'Python'
   - 'Raspberry Pi'
   - '自作ガジェット'
-private: false
+private: true
 updated_at: ''
 id: null
 organization_url_name: null
 slide: false
-ignorePublish: true
+ignorePublish: false
 ---
 # ✍️ はじめに
 **Raspberry Pi**を活用して、自作の「Atmoph Window」風のデバイスを作成しました。ソフトは**python**で動いております(初心者にもおすすめ🔰)。  
