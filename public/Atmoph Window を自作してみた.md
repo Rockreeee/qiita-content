@@ -4,8 +4,8 @@ tags:
   - '初心者'
   - 'DIY'
   - 'Python'
-  - 'Raspberry Pi'
-  - '自作ガジェット'
+  - 'RaspberryPi'
+  - '電子工作'
 private: true
 updated_at: ''
 id: null
@@ -103,6 +103,11 @@ Atmoph Windowを自作した理由:
 4. Raspberry Piの環境構築
 
 コードの動かし方は[**こちら**](https://github.com/Rockreeee/image-display-app)に書いております。
+
+:::note warn
+警告
+動作は自己責任でお願いします。
+:::
 
 
 # 👀 動作の様子
