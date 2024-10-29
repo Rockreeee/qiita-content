@@ -1,14 +1,14 @@
 ---
 title: Atmoph Window を自作してみた
 tags:
-  - '初心者'
-  - 'DIY'
-  - 'Python'
-  - 'RaspberryPi'
-  - '電子工作'
+  - Python
+  - 電子工作
+  - RaspberryPi
+  - 初心者
+  - DIY
 private: true
-updated_at: ''
-id: null
+updated_at: '2024-10-30T00:16:21+09:00'
+id: 3a4c5c8fc18619faef92
 organization_url_name: null
 slide: false
 ignorePublish: false
