@@ -1,5 +1,5 @@
 ---
-title: Atmoph Window を自作してみた
+title: 【初心者向け】Atmoph Window を自作してみた
 tags:
   - Python
   - 電子工作
@@ -17,9 +17,9 @@ ignorePublish: false
 **Raspberry Pi**を活用して、自作の「Atmoph Window」風のデバイスを作成しました。ソフトは**python**で動いております(初心者にもおすすめ🔰)。  
 
 <div style="display: flex; gap: 10px;">
-    <img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/9.jpg" alt="代替テキスト" width="200" height="330" />
-    <img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/8.jpg" alt="代替テキスト" width="200" height="330" />
-    <img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/11.jpg" alt="代替テキスト" width="200" height="330" />
+    <img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/9.jpg" alt="代替テキスト" width="270" height="400" />
+    <img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/8.jpg" alt="代替テキスト" width="270" height="400" />
+    <img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/11.jpg" alt="代替テキスト" width="270" height="400" />
 </div>
 
 Atmoph Windowを自作した理由:
@@ -27,17 +27,17 @@ Atmoph Windowを自作した理由:
 - **カスタマイズ**したいから
   - 今後Raspberry Piをファイルサーバーとしても機能させたい
 
-[**コード**](https://github.com/Rockreeee/image-display-app)も公開していますので、是非真似してみてください🎶
+[**プログラム**](https://github.com/Rockreeee/image-display-app)も公開していますので、是非真似してみてください🎶
 
 # ✅ 実際に完成したもの
 
-<img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/10.jpg" alt="代替テキスト" width="250" height="380" />
+<img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/10.jpg" alt="代替テキスト" width="500" height="760" />
 
 正面から見た様子
 
 
 
-<img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/12.jpg" alt="代替テキスト" width="250" height="380" />
+<img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/12.jpg" alt="代替テキスト" width="500" height="760" />
 
 裏側はこんな感じ
 
@@ -45,29 +45,20 @@ Atmoph Windowを自作した理由:
 
 # 👍 活用方法
 
-<img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/2.png" alt="代替テキスト" width="100" height="200" />
-<img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/3.png" alt="代替テキスト" width="100" height="200" />
+<img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/2.png" alt="代替テキスト" width="200" height="400" />
+<img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/3.png" alt="代替テキスト" width="200" height="400" />
 
 時間日付確認  
 天気予報確認  
 ランダム画像表示
 
-<img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/1.jpg" alt="代替テキスト" width="200" height="200" />
+<img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/1.jpg" alt="代替テキスト" width="400" height="400" />
 
 アート作品や写真を飾る
 
-<img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/4.png" alt="代替テキスト" width="200" height="120" />
+<img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/4.png" alt="代替テキスト" width="400" height="240" />
 
 暗記
-
-# 📋 特徴
-自作Atmoph Windowの主な機能
-- **風景画像のスライドショー**: ランダムで景色やアートの画像を表示
-- **日付・時計の表示**: 日付・時間表示
-- **天気の表示**: 指定の場所の天気予報表示（tenki.jp）
-- **音楽再生**: 優雅な音楽の目覚まし
-- **明るさの自動調整**: 朝昼晩に応じて、画面の明るさを自動的に調整
-- **学習モード**: 英単語やフレーズを表示して、語彙力を高められる学習機能も搭載！！
 
 # 🛠️ 用意したものと費用
 - [**Raspberry Pi4 ModelB 4GB**](https://www.amazon.co.jp/dp/B081YD3VL5?ref=ppx_pop_mob_ap_share)  
@@ -76,7 +67,7 @@ Atmoph Windowを自作した理由:
 → 2000円
 - [**microSD 128GB**](https://www.amazon.co.jp/dp/B09378JC6B?ref=ppx_pop_mob_ap_share)  
 → 2000円
-- [**ディスプレイ**](https://www.amazon.co.jp/dp/B08PTSFF4B?ref=ppx_pop_mob_ap_share&th=1)(ベゼルが薄く、IPSパネルがおすすめ)  
+- [**ディスプレイ**](https://www.amazon.co.jp/dp/B08PTSFF4B?ref=ppx_pop_mob_ap_share&th=1)(ベゼルが薄い、IPSパネルがおすすめ)  
 → 12000円
 - **木材**:  
 → 2000円
@@ -102,7 +93,7 @@ Atmoph Windowを自作した理由:
 3. Raspberry Piなどをつなぐ
 4. Raspberry Piの環境構築
 
-コードの動かし方は[**こちら**](https://github.com/Rockreeee/image-display-app)に書いております。
+プログラムの動かし方は[**こちら**](https://github.com/Rockreeee/image-display-app)に書いております。
 
 :::note warn
 警告
@@ -110,12 +101,22 @@ Atmoph Windowを自作した理由:
 :::
 
 
+# 📋 特徴
+自作Atmoph Windowの主な機能
+- **風景画像のスライドショー**: ランダムで景色やアートの画像を表示
+- **日付・時計の表示**: 日付・時間表示
+- **天気の表示**: 指定の場所の天気予報表示（tenki.jp）
+- **音楽再生**: 優雅な音楽の目覚まし
+- **明るさの自動調整**: 朝昼晩に応じて、画面の明るさを自動的に調整
+- **学習モード**: 英単語やフレーズを表示して、語彙力を高められる学習機能も搭載！！
+
+
 # 👀 動作の様子
 <img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/7.png" width="200" height="230" /> 
 
 ２つのモードがあります
-- 画像表示モード
-- 勉強モード
+- 🖼 画像表示モード
+- 🧠 勉強モード
 
 ## 🖼 画像表示モード
 <img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/5.png" width="400" height="250" /> 
