@@ -1,14 +1,14 @@
 ---
 title: ターミナル上での 全角・ひらがな↔半角 変換コマンドを自作してみた！
 tags:
-  - '初心者'
-  - 'zsh'
-  - 'terminal'
-  - 'dotfiles'
-  - 'Mac'
+  - Zsh
+  - Mac
+  - Terminal
+  - 初心者
+  - dotfiles
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-10-30T13:13:47+09:00'
+id: 18f0639eae7ee78c666e
 organization_url_name: null
 slide: false
 ignorePublish: false
