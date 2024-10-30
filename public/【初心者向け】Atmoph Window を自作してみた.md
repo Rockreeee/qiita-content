@@ -111,7 +111,7 @@ Atmoph Windowを自作した理由:
 - **学習モード**: 英単語やフレーズを表示して、語彙力を高められる学習機能も搭載！！
 
 
-# 👀 動作の様子
+# 👀 プログラムの様子
 <img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/7.png" width="200" height="230" /> 
 
 ２つのモードがあります
@@ -122,39 +122,43 @@ Atmoph Windowを自作した理由:
 <img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/5.png" width="400" height="250" /> 
 
 ### - 設定
-- Image Path: 画像フォルダのパス
-- Image Display Interval: 画像が切り替わるまでの時間
-- Image With Margin: 画像の周りに余白を表示するか否か
-- Automatic Brightness Adjustment: 明るさを自動調整するか否か
-- Show Clock: 時間を表示するか否か
-- Show Weather: 天気を表示するか否か
-- Sound Path: 音楽フォルダのパス
-- Sound Off: 音楽オフ
-- Sound On: 音楽オン
-- Morning Sound Only: 朝の10分間音楽を流す
+- **Image Path**: 画像フォルダのパス
+- **Image Display Interval**: 画像が切り替わるまでの時間
+- **Image With Margin**: 画像の周りに余白を表示するか否か
+- **Automatic Brightness Adjustment**: 明るさを自動調整するか否か
+- **Show Clock**: 時間を表示するか否か
+- **Show Weather**: 天気を表示するか否か
+- **Sound Path**: 音楽フォルダのパス
+- **Sound Off**: 音楽オフ
+- **Sound On**: 音楽オン
+- **Morning Sound Only**: 朝の10分間音楽を流す
+
+<img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/2.png" alt="代替テキスト" width="300" height="600" />
 
 ### - キーバインド
-- \<Escape key> or \<q key>: 終了する
-- \<b key>: 周りの枠の明るさ調整
-- \<i key>: 画像の明るさ調整
-- \<f key>: ウィンドウ大きさ変更
-- \<h key>: カーソル表示切り替え
-- \<v key>: 音量の調整
-- \<m key>: ミュートの切り替え
-- \<Space key>: 次の画像に移動する
+- **\<Escape key> or \<q key>**: 終了する
+- **\<b key>**: 周りの枠の明るさ調整
+- **\<i key>**: 画像の明るさ調整
+- **\<f key>**: ウィンドウ大きさ変更
+- **\<h key>**: カーソル表示切り替え
+- **\<v key>**: 音量の調整
+- **\<m key>**: ミュートの切り替え
+- **\<Space key>**: 次の画像に移動する
 
 ## 🧠 勉強モード
 <img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/6.png" width="400" height="150" /> 
 
 ### - 設定
-- Study Directory: 問題が保存されているファイルのパス
-- Answer Interval: 答えが出るまでの時間
-- Change Interval: 問題が変わるまでの時間
+- **Study Directory**: 問題が保存されているファイルのパス
+- **Answer Interval**: 答えが出るまでの時間
+- **Change Interval**: 問題が変わるまでの時間
+
+<img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/4.png" alt="代替テキスト" width="600" height="360" />
 
 ### - キーバインド
-- \<Escape key> or \<q key>: 終了する
-- \<Space key>: 暗記完了（ループから削除されて、もう表示されない）
-- \<b key>: 明るさ調整
+- **\<Escape key> or \<q key>**: 終了する
+- **\<Space key>**: 暗記完了（ループから削除されて、もう表示されない）
+- **\<b key>**: 明るさ調整
 
 # ✅ まとめ
 - 今回は、Raspberry PiとPythonを活用して自作の「Atmoph Window」を手軽に再現してみました！
