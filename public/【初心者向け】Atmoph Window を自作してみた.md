@@ -17,6 +17,8 @@ ignorePublish: false
 **Raspberry Pi**を活用して、自作の「Atmoph Window」風のデバイスを作成しました。ソフトは**python**で動いております(初心者にもおすすめ🔰)。  
 
 <div style="display: flex; gap: 10px;">
+    <img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/13.jpg" alt="代替テキスト" width="270" height="400" />
+    <img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/14.jpg" alt="代替テキスト" width="270" height="400" />
     <img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/9.jpg" alt="代替テキスト" width="270" height="400" />
     <img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/8.jpg" alt="代替テキスト" width="270" height="400" />
     <img src="https://github.com/Rockreeee/image-display-app/raw/main/asset/11.jpg" alt="代替テキスト" width="270" height="400" />
