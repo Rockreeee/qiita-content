@@ -7,8 +7,8 @@ tags:
   - 初心者
   - dotfiles
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-01-23T17:01:09+09:00'
+id: 2e03edb854a7430ce753
 organization_url_name: null
 slide: false
 ignorePublish: false
