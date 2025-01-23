@@ -11,29 +11,16 @@ See official [README](https://github.com/increments/qiita-cli?tab=readme-ov-file
 ## 新しい記事を作成するとき
 
 ```bash
-npm run new <Title>
+git pull
 ```
 
-## Preview するとき
 
 ```bash
-npm run preview
+npx qiita new "title"
 ```
 
-## 記事を投稿するとき
-Githubにpushするだけでも、投稿はできる。
-```bash
-npm run publish <Title>
-```
-
-全ての記事を反映する。
 
 ```bash
-npm run publish --all
+git push
 ```
 
-## Qiitaから記事を取り込むとき
-
-```bash
-npm run pull
-```
