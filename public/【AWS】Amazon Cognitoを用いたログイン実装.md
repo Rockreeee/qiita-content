@@ -7,7 +7,7 @@ tags:
   - Apple
   - cognito
 private: false
-updated_at: '2025-03-21T15:12:45+09:00'
+updated_at: '2025-03-21T15:20:48+09:00'
 id: 0cdb36714b72f985537d
 organization_url_name: null
 slide: false
