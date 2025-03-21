@@ -21,6 +21,14 @@ npx qiita new "title"
 
 
 ```bash
+git add
+```
+
+```bash
+git commit
+```
+
+```bash
 git push
 ```
 
