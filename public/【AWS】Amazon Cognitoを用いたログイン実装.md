@@ -15,11 +15,11 @@ ignorePublish: false
 ---
 
 # 今回実装してみた内容
-**モバイルアプリ（Flutter）x Amazon Cognito x OAuth2.0（Apple, Google）**  
+**モバイルアプリ（Flutter）x Amazon Cognito x ソーシャルプロバイダー（Apple, Google）**  
 ざっくり図で表すとこんな感じ
 ![スクリーンショット 2025-03-21 12.43.36.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3907333/7a421af6-d351-4e3c-9410-838f19a20921.png)
 
-モバイルアプリ x Amazon Cognito x OAuth2.0認証 には大きく3つの実装方法があるかなと思います。
+モバイルアプリ x Amazon Cognito x ソーシャルプロバイダー認証 には大きく3つの実装方法があるかなと思います。
 - ネイティブSDK＋Cognito連携：アプリからネイティブの認証機能を用いて、トークンをCognitoに渡して認証  
 - Hosted UI：マネージドログインを使用した認証  
 - AWS Amplify：AWS Amplifyを利用した認証
