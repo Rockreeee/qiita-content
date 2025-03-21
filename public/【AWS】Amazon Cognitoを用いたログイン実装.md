@@ -1,14 +1,14 @@
 ---
 title: 【AWS】Amazon Cognitoを用いたシンプルなログイン実装
 tags:
-  - 'AWS'
-  - 'Cognito'
-  - 'Google'
-  - 'Apple'
-  - 'OAuth'
+  - AWS
+  - Google
+  - OAuth
+  - Apple
+  - cognito
 private: false
-updated_at: ''
-id: null
+updated_at: '2025-03-21T15:05:09+09:00'
+id: 0cdb36714b72f985537d
 organization_url_name: null
 slide: false
 ignorePublish: false
