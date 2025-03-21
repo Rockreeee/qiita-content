@@ -126,7 +126,7 @@ ignorePublish: false
 | Appleとユーザープール間で属性をマッピング | AppleとCognitoのユーザー属性を対応付ける設定 |
 
 ## アプリケーションクライアントの設定
-![スクリーンショット 2025-03-20 19.42.59.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3907333/696b44d4-8ec9-4cd8-9609-7b4e729c61c5.png)
+![スクリーンショット 2025-03-20 19.42.59.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3907333/1e8a2d64-29bb-43cd-8f6b-bfe169b787ac.png)
 
 以下の項目を埋めます。
 ![スクリーンショット 2025-03-20 20.43.42.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3907333/0bcb37c8-a344-435a-9587-acb4e610686b.png)
