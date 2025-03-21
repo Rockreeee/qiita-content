@@ -13,9 +13,8 @@ organization_url_name: null
 slide: false
 ignorePublish: false
 ---
-# Amazon Cognitoを用いたシンプルなログイン実装方法
 
-## 今回実装してみた内容
+# 今回実装してみた内容
 **モバイルアプリ（Flutter）x Amazon Cognito x OAuth2.0（Apple, Google）**  
 ざっくり図で表すとこんな感じ
 ![スクリーンショット 2025-03-21 12.43.36.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3907333/7a421af6-d351-4e3c-9410-838f19a20921.png)
@@ -38,11 +37,12 @@ ignorePublish: false
 <img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3907333/8b170f6e-1648-4ce6-861d-5fb35c007a33.png" alt="Simulator Screenshot - iPhone 15 Pro - 2025-03-21 at 13.29.29.png" width="200">
 
 
-## お願い
+# お願い
 - いつでも見返せるようにいいねをお願いします🙇 
 - 間違っているポイント、質問などございましたら、お気軽にコメントしてください🙇  
 - 手順が多く、長編となっております。
 
+# Amazon Cognitoを用いたシンプルなログイン実装方法
 # 目次
 1. [AWS側](#AWS側)
    1. [ユーザープールを作成](#ユーザープールを作成)
