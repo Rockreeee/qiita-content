@@ -75,17 +75,21 @@ ignorePublish: false
 ![スクリーンショット 2025-03-20 18.05.54.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3907333/67ee9981-f90b-47c6-85fc-2b66199a2857.png)
 
 3. 以下のように記入し、ユーザープールを作成します。
-![スクリーンショット 2025-03-20 17.45.38.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3907333/68518bc4-9923-448a-b2fd-6506b9e20b1d.png)
-
+![スクリーンショット 2025-03-23 14.31.39.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3907333/436638d8-936c-4c9a-9c54-06ff30185bcc.png)
 **項目の解説**
 
 | 項目 | 解説 |
 | --- | --- |
+| アプリケーションタイプ | 開発するアプリケーションのタイプ |
+| アプリケーションに名前を付ける | アプリの名前 |
 | サインイン識別子のオプション | ユーザーがログインする際に使用する識別子 |
 | サインアップのための必須属性 | ユーザーが登録時に入力する必要がある情報 |
-| リターンURL | 認証後にリダイレクトされるURL(例：com.example.app://callback) |
 
-※サインアップのための必須属性：私はアプリ側でニックネームを使用したいため、emailとnicknameを会員登録時に設定させるようにしました。普通ならemailだけでもいいと思います。
+
+:::note warn
+注意
+サインイン識別子のオプションとサインアップのための必須属性は後から変更不可です。
+:::
 
 ## ソーシャルプロバイダーとカスタムプロバイダーの設定
 1. **各ソーシャルプロバイダー側で必要な設定を行い**、クライアントIDなどを取得します。ここの説明は公式が丁寧にされているので、省きます。
@@ -97,7 +101,7 @@ ignorePublish: false
 ![スクリーンショット 2025-03-20 18.58.36.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3907333/5dd51bee-e90a-4803-8ee7-cf3c5530b59e.png)
 
 2. 以下の項目を埋めます。
-![スクリーンショット 2025-03-20 19.13.10.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3907333/807bec81-82bc-481c-9af4-080686592654.png)
+![スクリーンショット 2025-03-23 14.42.52.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3907333/6151b9ec-f547-4bbe-8c59-3abe470fc415.png)
 
 **項目の解説**
 
@@ -113,7 +117,7 @@ ignorePublish: false
 ![スクリーンショット 2025-03-20 18.58.36.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3907333/5dd51bee-e90a-4803-8ee7-cf3c5530b59e.png)
 
 2. 以下の項目を埋めます。
-![スクリーンショット 2025-03-20 19.27.49.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3907333/0e0d0066-52b5-472e-b011-448deea91c35.png)
+![スクリーンショット 2025-03-23 14.45.24.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3907333/d4e2d738-fb3f-45b2-8d59-999e8b1ad355.png)
 
 **項目の解説**
 
@@ -123,12 +127,17 @@ ignorePublish: false
 | チームID | Apple DeveloperのチームID |
 | キーID | Apple Developerで生成されたKey ID |
 | プライベートキー | Apple Developerで生成された.p8ファイルをアップロード |
+| 許可されたスコープ | Appleから取得したい要素 |
 | Appleとユーザープール間で属性をマッピング | AppleとCognitoのユーザー属性を対応付ける設定 |
 
 ## アプリケーションクライアントの設定
+1. アプリを選択します。
+![スクリーンショット 2025-03-23 14.55.56.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3907333/2cb9a20e-aa6d-4b7d-9782-7c5b470e0f74.png)
+
+2. ログインページの中の編集を押下します。
 ![スクリーンショット 2025-03-20 19.42.59.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3907333/1e8a2d64-29bb-43cd-8f6b-bfe169b787ac.png)
 
-以下の項目を埋めます。
+3. 以下の項目を埋めます。
 ![スクリーンショット 2025-03-20 20.43.42.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3907333/0bcb37c8-a344-435a-9587-acb4e610686b.png)
 
 **項目の解説**
@@ -138,10 +147,9 @@ ignorePublish: false
 | 許可されているコールバックURL | サインイン後にリダイレクトされるURL(例：com.example.app://callback) |
 | 許可されているサインアウトURL | ログアウト後にリダイレクトされるURL(例：com.example.app://callback) |
 | ID プロパイダー | 使用するIDプロバイダー（例：Google、Apple） |
-| OpenID Connectedのスコープ | OpenID Connectで要求するスコープ（例：openid email profile） |
+| OpenID Connectedのスコープ | OpenID Connectで要求するスコープ |
 
-※OpenID Connectedのスコープ：openidは必須です。**IDトークンを取得するために絶対必要なスコープ**。これが無いと「認証（ログイン）」が動作しないため。
-
+※OpenID Connectedのスコープ：openidは必須です。**IDトークンを取得するために必要なスコープ**。これが無いと「認証（ログイン）」が動作しないため。
 
 ※許可されているサインアウトURLはコールバックURLと同じで問題ないです
 
@@ -412,7 +420,6 @@ class AuthService {
         
         if (idToken != null) {
           // AppAuthのセッションをクリア
-          // TODO: セッションをクリアすると、ログアウトURLを開くだけで完了するが、うまくリダイレクトできないバグあり
           await _appAuth.endSession(
             EndSessionRequest(
               idTokenHint: idToken,
@@ -424,6 +431,7 @@ class AuthService {
               ),
               additionalParameters: {
                 'client_id': CognitoConfig.clientId,
+                'logout_uri': CognitoConfig.redirectUri,
               },
             ),
           );
